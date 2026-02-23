@@ -2,42 +2,45 @@
 <html>
     <head>
         <title>La Nourriture</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     </head>
     <body>
         <header>
             <h1>La Nourriture</h1>
+            <nav>
+                <a href="index.html">About Us</a>
+                <a href="place_order.html">Place an Order</a>
+                <a href="book_reservation.html">Book a Table</a>
+            </nav>
         </header>
-
-        <nav>
-            <a href="index.html">About Us</a>
-            <a href="place_order.html">Place an Order</a>
-            <a href="book_reservation.html">Book a Table</a>
-        </nav>
 
         <h2>Create a Reservation</h2>
 
-        <p>
-            Please input the details of your reservation below.
-        </p>
-        <ul>
-            <li>
-                <label for="date">Date: </label>
-                <input id="date" type="date">
-            </li>
-            <li>
-                <label for="time">Time: </label>
-                <input id="time" type="time">
-            </li>
-            <li>
-                <label for="guests">Number of guests: </label>
-                <input id="guests" type="number" min="1">
-            </li>
-            <li>
-                <label for="special">Any Special Requests?</label>
-                <input id="special" type="text">
-            </li>
-        </ul>
-        <p><button>Create Reservation</button></p>
+        <div class="main-content">
+            <p>
+                Please input the details of your reservation below.
+            </p>
+            <ul>
+                <li>
+                    <label for="date">Date: </label>
+                    <input id="date" type="date">
+                </li>
+                <li>
+                    <label for="time">Time: </label>
+                    <input id="time" type="time">
+                </li>
+                <li>
+                    <label for="guests">Number of guests: </label>
+                    <input id="guests" type="number" min="1">
+                </li>
+                <li>
+                    <label for="special">Any Special Requests?</label><br>
+                    <textarea id="special"></textarea>
+                </li>
+            </ul>
+            <p><button>Create Reservation</button></p>
+        </div>
         
 
         <footer>La Nourriture 2026</footer>

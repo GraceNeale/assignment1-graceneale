@@ -2,66 +2,116 @@
 <html>
     <head>
         <title>La Nourriture</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     </head>
     <body>
         <header>
             <h1>La Nourriture</h1>
+            <nav class="sticky">
+                <a href="index.html">About Us</a>
+                <a href="place_order.html">Place an Order</a>
+                <a href="book_reservation.html">Book a Table</a>
+            </nav>
         </header>
 
-        <nav>
-            <a href="index.html">About Us</a>
-            <a href="place_order.html">Place an Order</a>
-            <a href="book_reservation.html">Book a Table</a>
-        </nav>
+        <div class="main-content">
 
         <h2>Place Your Order</h2>
-        <nav>
+
+        <nav id="order-nav">
             <a href="#appetizers">Appetizers</a>
             <a href="#entrees">Entrees</a>
             <a href="#desserts">Desserts</a>
         </nav>
+
         <h3 id="appetizers">Appetizers</h3>
 
-        <div>
-            <h4>Salad</h4>
-            <p>This section will include a description of this menu item.</p>
-            <img src="images/salad.jpg" width="200px" alt="salad">
-            <button>Add to order</button>
-        </div>
+        <div class="menu-container">
+            <div class="menu-tile">
+                <div>
+                    <img src="images/salad.jpg" alt="salad">
+                    <p>This section will include a description of this menu item.</p>
+                </div>
+                <h4>Salad</h4>
+                <button>Add to Order</button>
+            </div>
 
-        <div>
-            <h4>Soup</h4>
-            <p>This section will include a description of this menu item.</p>
-            <img src="images/soup.jpg" width="200px" alt="soup">
-            <button>Add to order</button>
+            <div class="menu-tile">
+                <div>
+                    <img src="images/soup.jpg" alt="soup">
+                    <p>This section will include a description of this menu item.</p>
+                </div>
+                <h4>Soup</h4>
+                <button>Add to Order</button>
+            </div>
         </div>
 
         <h3 id="entrees">Entrees</h3>
 
-        <div>
-            <h4>Spaghetti</h4>
-            <p>This section will include a description of this menu item.</p>
-            <img src="images/spaghetti.jpg" width="200px" alt="spaghetti">
-            <button>Add to order</button>
-        </div>
+        <div class="menu-container">
+            <div class="menu-tile">
+                <div>
+                    <img src="images/spaghetti.jpg" alt="spaghetti">
+                    <p>This section will include a description of this menu item.</p>
+                </div>
+                <h4>Spaghetti</h4>
+                <button>Add to Order</button>
+            </div>
 
-        <div>
-            <h4>Pizza</h4>
-            <p>This section will include a description of this menu item.</p>
-            <img src="images/pizza.jpg" width="200px" alt="pizza">
-            <button>Add to order</button>
+            <div class="menu-tile">
+                <div>
+                    <img src="images/pizza.jpg" alt="pizza">
+                    <p>This section will include a description of this menu item.</p>
+                </div>
+                <h4>Pizza</h4>
+                <button>Add to Order</button>
+            </div>
+
+            <div class="menu-tile">
+                <div>
+                    <img src="images/lasagna.jpg" alt="lasagna">
+                    <p>This section will include a description of this menu item.</p>
+                </div>
+                <h4>Lasagna</h4>
+                <button>Add to Order</button>
+            </div>
+
+            <div class="menu-tile">
+                <div>
+                    <img src="images/ravioli.jpg" alt="ravioli">
+                    <p>This section will include a description of this menu item.</p>
+                </div>
+                <h4>Ravioli</h4>
+                <button>Add to Order</button>
+            </div>
+
+            <div class="menu-tile">
+                <div>
+                    <img src="images/gnocchi.jpg" alt="gnocchi">
+                    <p>This section will include a description of this menu item.</p>
+                </div>
+                <h4>Gnocchi</h4>
+                <button>Add to Order</button>
+            </div>
         </div>
 
         <h3 id="desserts">Desserts</h3>
 
-        <div>
-            <h4>Ice Cream</h4>
-            <p>This section will include a description of this menu item.</p>
-            <img src="images/ice_cream.jpg" width="200px" alt="ice cream">
-            <button>Add to order</button>
+        <div class="menu-container">
+            <div class="menu-tile">
+                <div>
+                    <img src="images/ice_cream.jpg" alt="ice cream">
+                    <p>This section will include a description of this menu item.</p>
+                </div>
+                <h4>Ice Cream</h4>
+                <button>Add to Order</button>
+            </div>
         </div>
 
-        <p><button>Place Order</button></p>
+        <p><button id="order-button">Place Order</button></p>
+
+        </div>
 
         <footer>La Nourriture 2026</footer>
     </body>
