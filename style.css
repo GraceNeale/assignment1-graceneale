@@ -247,14 +247,17 @@ img {
     text-align: center;
 }
 
+@media (max-width: 885px) {
+    .menu-container {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 500px) {
     .menu-tile {
         width: 90%;
         margin-left: 0;
         margin-right: 0;
-    }
-    .menu-container {
-        justify-content: center;
     }
     img {
         width: 100%;
