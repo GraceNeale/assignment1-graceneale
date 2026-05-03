@@ -4,6 +4,7 @@
         <title>La Nourriture</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width">
     </head>
     <body>
         <header>
@@ -17,7 +18,7 @@
 
         <h2>Create a Reservation</h2>
 
-        <div class="main-content">
+        <main>
             <p>
                 Please input the details of your reservation below.
             </p>
@@ -36,11 +37,11 @@
                 </li>
                 <li>
                     <label for="special">Any Special Requests?</label><br>
-                    <textarea id="special"></textarea>
                 </li>
             </ul>
+            <textarea id="special"></textarea>
             <p><button id="reservation-button">Create Reservation</button></p>
-        </div>
+        </main>
         
         <div class="confirmation-box-container hidden">
             <div class="confirmation-box">
