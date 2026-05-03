@@ -17,6 +17,7 @@ body {
     margin: 0;
     color: #2B1D08;
     font-family: Merriweather, Georgia, serif;
+    font-size: 1em;
     line-height: 1.5em;
     display: flex;
     min-height: 100vh;
@@ -47,6 +48,7 @@ button {
     color: white;
     border: none;
     font-family: Merriweather, Georgia, serif;
+    font-size: 1em;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
